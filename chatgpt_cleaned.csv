@@ -1,0 +1,56 @@
+﻿Category,Subcategory,Item,Date,Value,Notes
+Version,Release,GPT-3.5 (ChatGPT initial),30-Nov-22,Initial chat model,Instruction-tuned; 1M users in 5 days
+Version,Release,GPT-4,14-Mar-23,Multimodal (text+images),Introduced paid Plus tier
+Version,Release,GPT-4 Turbo,6-Nov-23,"Faster, cheaper; 128K context",Optimized for long conversations
+Version,Release,GPT-4o,13-May-24,"Omni model: real-time voice, vision",Native multimodal; free tier access
+Version,Release,GPT-4.5,Feb-25,Preview 'Orion' enhancements,Improved reasoning
+Version,Release,GPT-5,7-Aug-25,Frontier model; Deep Research mode,MMLU: 87‚Äì91%; excels in coding
+Version,Release,GPT-5 Pro,Oct-25,Enterprise variant,Supports interruptible long queries
+Stock & Valuation,Funding,Initial Funding (Seed),2019,$1B,Microsoft-led
+Stock & Valuation,Funding,Series C,Apr-23,$29B,$300M raise post-ChatGPT
+Stock & Valuation,Funding,$10B Microsoft Investment,Jan-23,$29B,Compute resources
+Stock & Valuation,Funding,$6.6B Raise,Oct-24,$157B,Employee liquidity
+Stock & Valuation,Funding,$40B Primary Round,Mar-25,$300B,Largest private round ever; SoftBank-led
+Stock & Valuation,Funding,$6.6B Secondary Sale,Oct-25,$500B,Record valuation; for-profit restructure by EOY 2025
+Stock & Valuation,Share Price,Latest Secondary Price,5-Nov-25,$723.12 ,Forge Global
+Usage Statistics,Users,Weekly Active Users,Sep-25,800 million,
+Usage Statistics,Users,Monthly Active Users,Sep-25,355 million,
+Usage Statistics,Users,Daily Messages,2025,2.6 billion,Across 700M users
+Usage Statistics,Market Share,Global AI Tool Market Share,2025,60.60%,#1 AI tool
+Usage Statistics,Demographics,Under-25 Users,2025,45%,
+Usage Statistics,Demographics,Daily Users (18‚Äì24),2025,9%,
+Most Used Features,Productivity,Everyday Productivity,2025,52% of sessions,"Email, brainstorming, tasks"
+Most Used Features,Writing,Content Creation/Writing,2025,28%,"Essays, social media, code"
+Most Used Features,Learning,Research & Learning,2025,15%,"Summaries, tutoring"
+Most Used Features,Coding,Coding/Development,2025,12%,"Debugging, scripts"
+Most Used Features,Creative,"Creative Tools (Image Gen, Voice)",2025,10%,"Art, voice chats"
+Most Used Features,Enterprise,Fortune 500 Adoption,Mid-2025,80%,
+Most Used Features,Traffic,Mobile App Traffic,2025,40%,
+Efficiency,Metrics,Response Time (avg.) ‚Äì GPT-3.5,2022,2‚Äì5s,1K-token queries
+Efficiency,Metrics,Response Time (avg.) ‚Äì GPT-4o,2024,0.5‚Äì2s,
+Efficiency,Metrics,Response Time (avg.) ‚Äì GPT-5,2025,<1s,Simple tasks
+Efficiency,Metrics,Voice Latency,2025,200ms,Real-time
+Efficiency,Metrics,Productivity Boost ‚Äì GPT-4o,2024,37%,Task completion time
+Efficiency,Metrics,Productivity Boost ‚Äì GPT-5,2025,59%,17min vs 27min for writing
+Efficiency,Metrics,Cost per 1M Input Tokens ‚Äì GPT-3.5,2022,$0.00 ,
+Efficiency,Metrics,Cost per 1M Input Tokens ‚Äì GPT-4o,2024,$5 ,
+Efficiency,Metrics,Cost per 1M Input Tokens ‚Äì GPT-5,2025,$3 ,40% cheaper than GPT-4
+Efficiency,Metrics,Error Rate in Tasks ‚Äì GPT-3.5,2022,15‚Äì20%,
+Efficiency,Metrics,Error Rate in Tasks ‚Äì GPT-4o,2024,<10%,
+Efficiency,Metrics,Error Rate in Tasks ‚Äì GPT-5,2025,<5%,Underestimation errors <5%
+Efficiency,Metrics,Developer Productivity,2025,30%,
+Accuracy,Benchmark,MMLU ‚Äì GPT-3.5,2022,70%,
+Accuracy,Benchmark,MMLU ‚Äì GPT-4o,2024,88.70%,
+Accuracy,Benchmark,MMLU ‚Äì GPT-5,2025,91.40%,"#1; beats Claude 3.5 (89%), Gemini 2.0 (87%)"
+Accuracy,Benchmark,AIME (Math) ‚Äì GPT-3.5,2022,13%,
+Accuracy,Benchmark,AIME (Math) ‚Äì GPT-4o,2024,83%,
+Accuracy,Benchmark,AIME (Math) ‚Äì GPT-5,2025,100%,Perfect score on 2025 exam
+Accuracy,Benchmark,HumanEval (Coding) ‚Äì GPT-3.5,2022,48%,
+Accuracy,Benchmark,HumanEval (Coding) ‚Äì GPT-4o,2024,85%,
+Accuracy,Benchmark,HumanEval (Coding) ‚Äì GPT-5,2025,96.7% (w/ tools),Outperforms GPT-5 Pro (94%)
+Accuracy,Benchmark,PhD-Level Science ‚Äì GPT-4o,2024,74%,
+Accuracy,Benchmark,PhD-Level Science ‚Äì GPT-5,2025,89.40%,
+Accuracy,Benchmark,SWE-Bench ‚Äì GPT-4o,2024,33%,
+Accuracy,Benchmark,SWE-Bench ‚Äì GPT-5,2025,74.90%,+42% vs humans on Humanity's Last Exam
+Accuracy,Other,Hallucination Rate (Niche Queries),2025,5‚Äì10%,Always verify critical info
+Accuracy,Other,No-Tools Math Accuracy ‚Äì GPT-5,2025,93%,Complex reasoning
