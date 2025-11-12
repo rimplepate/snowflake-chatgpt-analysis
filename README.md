@@ -1,63 +1,85 @@
-❄️ Snowflake ChatGPT Analysis
+ChatGPT Data Analysis (Snowflake SQL Project)
+📋 Overview
 
-A data engineering and analytics project demonstrating end-to-end data processing in Snowflake, combined with Python automation for analysis and export.
+This project provides an end-to-end data engineering and analysis workflow using Snowflake SQL. It showcases how to build a scalable database environment, clean and transform raw data, and generate analytical insights related to ChatGPT categories and performance metrics.
 
-This project showcases how to: 
-1.Create and manage Snowflake databases, schemas, and warehouses
+The workflow demonstrates both technical implementation (warehouse and schema setup) and analytical thinking (data cleaning, aggregation, and insights generation).
 
-2.Load CSV data into Snowflake using SQL commands
-
-3.Run analytical queries and transformations
-
-4.Automate data extraction using Python and the Snowflake Connector
-
-🧱 Project Structure:-
-
-snowflake-chatgpt-analysis/
+🏗️ Project Structure
+ChatGPT_analysis/
 │
-├── sql/                # SQL scripts for setup and analysis
-├── scripts/            # Python automation scripts
-├── results/            # CSV exports of query results
-├── requirements.txt     # Python dependencies
-└── README.md            # Project overview
+├── ChatGPT_analysis.sql       # Main SQL script for setup, cleaning, and analysis
+├── ChatGPT_analysis.ipynb     # Jupyter notebook for exploratory validation
+└── README.md                  # Documentation file (this file)
 
+⚙️ Key Features:-
+🧩 Engineering Aspects
 
-⚙️ How to Run
-1️⃣ Set Up Snowflake
+1.Automated Environment Setup:
+Creates a Snowflake warehouse, database, and schema from scratch for reproducibility.
 
-Run the SQL scripts in the sql/ folder to:
+2.Table and Stage Creation:
+Prepares chatgpt_data and staging areas for easy data ingestion and transformation.
 
-Create your database, schema, and tables
+3.Efficient Query Design:
+Uses optimized functions such as TRY_TO_DATE() and TRY_TO_DOUBLE() to handle type conversion safely.
 
-Load your CSV dataset into Snowflake
+4.Data Quality Management:
+Detects and flags missing values or empty notes for better integrity checks.
 
-2️⃣ Run Python Analysis
+📊 Analytical Aspects:-
 
-Install dependencies and execute the script:
+1.Data Cleaning & Transformation:
+Converts string-based dates into Snowflake DATE objects.
+Extracts and normalizes numeric values from mixed-format strings.
+Fills missing notes with a default "No notes" tag.
 
-pip install -r requirements.txt
-python scripts/snowflake_analysis.py
+2.Descriptive Analysis:
+Aggregates metrics across Category and Subcategory, computing count, sum, and average statistics.
 
-🧩 Tech Stack
+3.Trend and Performance Analysis:
+Evaluates category-level performance over time to identify top-performing segments.
 
-1.Snowflake – Data warehouse
+🧠 Core SQL Techniques:-
 
-2.SQL – Data modeling & querying
+Function	Purpose
+TRY_TO_DATE()	Converts string-based dates safely
+TRY_TO_DOUBLE()	Extracts numeric values from text
+REGEXP_SUBSTR()	Parses numeric patterns in strings
+COALESCE()	Replaces missing or null values
+GROUP BY + ORDER BY	Enables aggregation and ranking for summaries
 
-3.Python – Automation & analytics
+🚀 How to Run:
 
-4.Pandas – Data export and manipulation
+Log into Snowflake (free trial or enterprise account).
+Open a new SQL Worksheet.
+Copy and paste the contents of ChatGPT_analysis.sql
 
-🌟 Highlights
+Execute queries in sequence to:
+Create warehouse, database, and schema
+Define and clean data tables
+Run analytical queries for insights
 
-End-to-end data workflow (from raw CSV → Snowflake → insights)
+📈 Example Insights:-
 
-Secure authentication via environment variables
+Categories with the highest total numeric values
+Subcategories showing strong average performance
+Temporal trends in category averages over time
+Data completeness and missing value statistics
 
-Ready-to-fork structure for future analytics projects
+💻 Requirements:-
 
-🔗 Connect
+Snowflake Account
+Basic SQL Knowledge
+(Optional) Python with Jupyter Notebook for exploratory visualization
 
-If you like this project, star ⭐ the repo or connect with me on LinkedIn:- www.linkedin.com/in/rimple-patel-b9b572209
+🌟 Future Enhancements:-
 
-📧 Created by Rimple Patel
+Automate data refresh using Snowflake Tasks & Streams
+Connect Snowflake to Python visualization tools (Matplotlib, Seaborn, or Power BI)
+Integrate external data ingestion from cloud storage stages
+Implement stored procedures for recurring analysis
+
+👩‍💻 Author:- Rimple Patel
+📫 [LinkedIn profile link :- www.linkedin.com/in/rimple-patel-b9b572209]
+📅 Created: November 2025
