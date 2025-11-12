@@ -2,17 +2,16 @@
 
 A data engineering and analytics project demonstrating end-to-end data processing in Snowflake, combined with Python automation for analysis and export.
 
-This project showcases how to:
+This project showcases how to: 
+1.Create and manage Snowflake databases, schemas, and warehouses
 
-Create and manage Snowflake databases, schemas, and warehouses
+2.Load CSV data into Snowflake using SQL commands
 
-Load CSV data into Snowflake using SQL commands
+3.Run analytical queries and transformations
 
-Run analytical queries and transformations
+4.Automate data extraction using Python and the Snowflake Connector
 
-Automate data extraction using Python and the Snowflake Connector
-
-🧱 Project Structure
+🧱 Project Structure:-
 
 snowflake-chatgpt-analysis/
 │
@@ -20,7 +19,7 @@ snowflake-chatgpt-analysis/
 ├── scripts/            # Python automation scripts
 ├── results/            # CSV exports of query results
 ├── requirements.txt     # Python dependencies
-└── README.md            # Project overview (this file)
+└── README.md            # Project overview
 
 
 ⚙️ How to Run
@@ -41,13 +40,13 @@ python scripts/snowflake_analysis.py
 
 🧩 Tech Stack
 
-Snowflake – Data warehouse
+1.Snowflake – Data warehouse
 
-SQL – Data modeling & querying
+2.SQL – Data modeling & querying
 
-Python – Automation & analytics
+3.Python – Automation & analytics
 
-Pandas – Data export and manipulation
+4.Pandas – Data export and manipulation
 
 🌟 Highlights
 
