@@ -13,6 +13,7 @@ Run analytical queries and transformations
 Automate data extraction using Python and the Snowflake Connector
 
 🧱 Project Structure
+
 snowflake-chatgpt-analysis/
 │
 ├── sql/                # SQL scripts for setup and analysis
@@ -20,6 +21,7 @@ snowflake-chatgpt-analysis/
 ├── results/            # CSV exports of query results
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project overview (this file)
+
 
 ⚙️ How to Run
 1️⃣ Set Up Snowflake
