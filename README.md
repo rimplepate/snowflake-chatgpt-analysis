@@ -1,4 +1,5 @@
 ChatGPT Data Analysis (Snowflake SQL Project)
+
 📋 Overview
 
 This project provides an end-to-end data engineering and analysis workflow using Snowflake SQL. It showcases how to build a scalable database environment, clean and transform raw data, and generate analytical insights related to ChatGPT categories and performance metrics.
